@@ -47,7 +47,7 @@
 .login-area {
   width: 100%;
   max-width: 640px;
-  height: 700px;
+  padding-bottom: 20px;
   border: 1px solid #e7e9ed;
   display: flex;
   flex-direction: column;
@@ -85,6 +85,7 @@ form {
   line-height: normal;
 }
 .name-area input,
+.state-area select,
 .email-area input,
 .password-input-area input {
   width: 100%;
@@ -100,6 +101,9 @@ form {
 .email-area {
   margin-top: 24px;
 }
+.state-area {
+    margin-top: 24px;
+  }
 .password-label {
   margin-top: 24px;
   display: flex;
