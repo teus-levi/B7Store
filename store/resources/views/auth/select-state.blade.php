@@ -26,7 +26,7 @@
 
             </select>
 
-                @error('name')
+                @error('state')
                     <div class="error">
                         {{$message}}
                     </div>
